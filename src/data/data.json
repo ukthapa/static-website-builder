@@ -1,0 +1,20 @@
+{
+  "site": {
+    "title": "Example Site",
+    "url": "http://example.com"
+  },
+    "boxes" : [
+    {
+      "title": "red",
+      "feature": "features"
+    },
+    {
+      "title": "green",
+      "feature": "features"
+    },
+    {
+      "title": "blue",
+      "feature": "features"
+    }
+  ]
+}

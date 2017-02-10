@@ -1,0 +1,19 @@
+<!-- layout.njk -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+ <title>{{ site.title }} | {{ page.title }}</title>
+ <meta name="description" content="{{ page.description }}" />
+<link rel="stylesheet" href="{{ site.url }}/main.css">
+  {% block pageCSS %} {% endblock %}
+</head>
+<body>
+<!-- You write code for this content block in another file -->
+{% block content %}{% endblock %} <!-- Very Important -->
+<script src="./js/vendor/vendor.js"></script>
+<script src="./js/main.min.js"></script>
+<script async src="{{ site.url }}/main.js"></script>
+{% block pageJS %} {% endblock %}
+</body>
+</html>
